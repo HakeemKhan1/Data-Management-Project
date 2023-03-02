@@ -1,4 +1,4 @@
-Book Manager(R) version 1.0 12/04/2022
+Book Manager(R) version 1.1 01/03/2023
 
 The program can be reached at:
 Phone #: 613-315-5458
