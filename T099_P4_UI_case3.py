@@ -101,15 +101,15 @@ def ui()->None:
                             break
                     if sort == 'P' or sort == 'p':
                         publisher = input('Enter a publisher'' ')
-                        print(get_books_by_publisher(publisher,book_catagory_dictionary(load_data)))
+                        get_books_by_publisher(publisher,book_catagory_dictionary(load_data))
                         options()
                     elif sort == 'C' or sort == 'c':
                         category = input('Enter a category'' ')
-                        print(get_books_by_category(category, book_catagory_dictionary(load_data)))
+                        get_books_by_category(category, book_catagory_dictionary(load_data))
                         options()
                 elif sub_command == 'GCT' or sub_command == 'gct':
                     title = input('Enter a title'' ')
-                    print(get_all_categories_for_book_title(title,book_catagory_dictionary(load_data)))
+                    get_all_categories_for_book_title(title,book_catagory_dictionary(load_data))
                     options()                  
                 elif sub_command == 'l' or sub_command == 'L':
                     print('dataset already entered')                
