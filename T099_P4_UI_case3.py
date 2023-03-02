@@ -4,7 +4,7 @@ from typing import List
 from T099_P2_fun import get_books_by_publisher
 from T099_P1_load_data import book_catagory_dictionary
 from T099_P2_add_remove_search_dataset import get_books_by_category
-from T099_P2_add_remove_search_dataset import get_all_categories_for_book_title
+from T099_P2_add_remove_search_dataset import get_all_categories_for_book
 
 def options()->str:
     ''' The funciton displays a string of the available commands for the user
